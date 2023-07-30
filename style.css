@@ -1,0 +1,310 @@
+/* GLOBAL CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4,
+h5 {
+    font-size: 2rem;
+}
+
+li {
+    font-size: 2rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main-head{
+    background: white;
+    color: rgb(5, 5, 5);
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 2 1 40rem;
+}   
+
+.bouton{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(84, 149, 84);
+    border-radius: 0px 0px 0px 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.rond{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 0% 60% 60% 62% / 10% 65% 58% 71%;
+    background-color: rgb(173, 202, 173);
+    position: relative;
+    left: -2%;
+}
+
+.fDp1{
+    
+    width: 100vw;
+    height: 509px;
+    border-radius: 10% 10% 10% 93% / 0% 0% 10% 28%;
+    background-color: rgb(185, 209, 185);
+}
+
+.envellopi{
+    display: flex; 
+    width: 456px;
+    height: 424px;
+    border-radius: 60% 60% 60% 60% / 60% 60% 60% 60%;
+    background-color: rgb(82, 158, 82);
+    position: relative;
+    left: 1600px;
+    top: -297px;
+
+
+}
+
+.dkr{
+    display: flex; 
+    width: 456px;
+    height: 424px;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
+    background-color: rgb(10, 11, 10);
+    position: relative;
+    left: 1600px;
+    top: -665px;
+}
+
+.info{
+    font-size: xx-large;
+    left: 350px;
+    position: relative;
+    top: -1000px;
+}
+
+.if{
+    font-size: x-large;
+    left: 350px;
+    position: relative;
+    top: -960px;
+}
+
+.el1{
+    font-size: xx-large;
+    left: 1200px;
+    position:relative;
+    top: -600px;
+    
+}
+
+.D2{
+    font-size: large;
+    left: 1200px;
+    position:relative;
+    top: -570px;
+    
+}
+
+.c2{
+    font-size: auto;
+    left: 1200px;
+    position:relative;
+    top: -528px;
+}
+
+.f4{
+    width: 282px;
+    height: 401px;
+    border-radius: 0% 0% 10% 20% / 10% 10% 0% 25%;
+    background-color: rgb(198, 234, 198);
+    position: relative;
+    top: -750px;
+    left: 855px;
+
+}
+
+.s7{
+    width: 256px;
+    height: 349px;
+    border-radius: 0% 0% 10% 20% / 10% 10% 0% 25%;
+    background-color: rgb(8, 8, 8);
+    position: relative;
+    top: 120px;
+    left: 20px;
+
+}
+
+.t6{
+    width: 221px;
+    height: 304px;
+    border-radius: 0% 0% 10% 20% / 10% 10% 0% 25%;
+    background-color: rgb(193, 235, 198);
+    position: relative;
+    top: -150px;
+    left: -250px;
+}
+
+.pt{
+    width: 55px;
+    height: 56px;
+    border-radius: 0% 0% 10% 100% / 10% 10% 0% 57%;
+    position: relative;
+    background-color: rgb(7, 93, 7);
+    top: 293px;
+    left: 100px;
+
+}
+
+.tp{
+    width: 58px;
+    height: 69px;
+    border-radius: 0% 0% 10% 100% / 10% 10% 0% 30%;
+    position: relative;
+    background-color: rgb(117, 218, 124);
+    top: -30px;
+    left: 500px;
+
+    
+}
+
+.yt{
+    width: 58px;
+    height: 69px;
+    border-radius: 0% 0% 10% 100% / 10% 10% 0% 30%;
+    position: relative;
+    background-color: rgb(117, 218, 124);
+    top: 2px;
+    left: 80px;
+}
+
+.xe{
+    width: 80px;
+    height: 75px;
+    border-radius: 0% 0% 5% 10% / 10% 5% 0% 10%;
+    position: relative;
+    background-color: rgb(28, 75, 32);
+    top: -210px;
+    left: -350px;
+}
+
+.pad{
+    width: 2040px;
+    height:386px;
+    border-radius: 32% 73% 15% 0% / 46% 56% 0% 92%;
+    background-color: rgb(209, 243, 209);
+    position: relative;
+    top: 500px;
+    left: -950px;
+}
+
+
+
+.eco{
+    width: 255px;
+    height:  340px;
+    border-radius: 0% 100% 0% 100% /  94% 0% 100% 6%;
+    background-color: rgb(87, 175, 87);
+    margin: 10px;
+    display:inline-block;
+    align-items: center;
+    
+}
+
+section{
+    margin-left: 420px;
+    padding-top: 250px;
+}
+
+.k4{
+    font-size: xx-large;
+    left: 435px;
+    position: relative;
+    top: -565px;
+}
+
+.n8{
+    font-size: large;
+    left: 430px;
+    position: relative;
+    top: -550px;
+}
+
+.lm{
+    font-size: x-large;
+    left: 470px;
+    position: relative;
+    top: -370px;
+    color: white;
+}
+
+.desty{
+    font-size: small;
+    left: 440px;
+    position: relative;
+    top: -320px;
+    color: white;
+}
+
+.ty{
+    font-size: x-large;
+    left: 470px;
+    position: relative;
+    top: -370px;
+
+}
+
+.ol{
+    font-size: small;
+    left: 600px;
+    position: relative;
+    top: -200px;
+    color: rgb(7, 7, 7);
+}
+
+
+
+
+
+
