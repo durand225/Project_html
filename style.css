@@ -125,7 +125,7 @@ nav ul {
 }
 
 .if{
-    font-size: x-large;
+    font-size: large;
     left: 350px;
     position: relative;
     top: -960px;
@@ -140,7 +140,7 @@ nav ul {
 }
 
 .D2{
-    font-size: large;
+    font-size: xx-large;
     left: 1200px;
     position:relative;
     top: -570px;
@@ -254,54 +254,101 @@ nav ul {
 
 section{
     margin-left: 420px;
-    padding-top: 250px;
+    padding-top: 100px;
+}
+
+.bannerTitle{
+    font-size: xx-large;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 450px;
 }
 
 .k4{
     font-size: xx-large;
-    left: 435px;
-    position: relative;
-    top: -565px;
+    margin-bottom: 25px;
 }
 
 .n8{
     font-size: large;
-    left: 430px;
-    position: relative;
-    top: -550px;
+
 }
 
 .lm{
     font-size: x-large;
-    left: 470px;
-    position: relative;
-    top: -370px;
     color: white;
+    margin-left: 45px;
 }
 
-.desty{
+.desty{  
     font-size: small;
-    left: 440px;
-    position: relative;
-    top: -320px;
     color: white;
-}
+    text-align: center;
+    margin-top: 50px;
+} 
 
-.ty{
+.modife{
     font-size: x-large;
-    left: 470px;
     position: relative;
-    top: -370px;
-
+    padding-top: 100px;
 }
 
-.ol{
+.mod{
+    font-size: x-large;
+    position: relative;
+    padding-top: 100px;
+}
+
+.physical1{
+    font-size: x-large;
+    color: white;
+    margin-left: 45px;
+}
+
+.activity1{
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mod1{
+    font-size: x-large;
+    position: relative;
+    padding-top: 100px;
+}
+
+.physical2{
+    font-size: x-large;
+    color: white;
+    margin-left: 45px;
+}
+
+.activity2{
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#service{
+    margin-left: 1000px;
+    margin-top: -100px;
+    font-size: 2rem;
+}
+
+.service2{
+    font-size: 2rem;
+    padding-top: 25px;
+}
+
+/* .ol{
     font-size: small;
     left: 600px;
     position: relative;
     top: -200px;
     color: rgb(7, 7, 7);
-}
+} */
 
 
 
